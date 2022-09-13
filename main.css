@@ -160,8 +160,9 @@ nav #menu {
     width: 160px;
 }
 
-#menu .list-menu li:hover {
-    background-color: rgb(241,244,253);
+#menu .list-menu li:hover i,
+#menu .list-menu li:hover a{
+    color:  rgb(83,102,223);
 }
 
 #menu .list-menu li i{
