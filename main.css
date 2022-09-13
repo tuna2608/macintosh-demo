@@ -62,7 +62,7 @@ header .menu-row .menu ul {
 header .menu-row .menu ul li {
     display: flex;
     margin: 0px 10px;
-    padding: 0px 15px; 
+    padding: 0px 10px; 
     background-color: white;
     border-radius: 5px;
 }
@@ -77,9 +77,6 @@ header .menu-row .menu ul li a {
 header .menu-row .menu ul li:hover a {
     color: rgb(83,102,223);
 }
-header .menu-row .menu ul li:hover {
-    background-color: rgb(241,244,253);
-} 
 
 header .menu-row .avt {
     margin-left: 140px;
@@ -89,7 +86,7 @@ nav{
 }
 
 nav #menu {
-    width: 225px;
+    width: 195px;
     height: 325px;
     background-color: white;
     border-radius: 10px;
@@ -98,18 +95,25 @@ nav #menu {
 }
 
 #menu ul .software {
-    width: 180px;
-    height: 45px;
+    width: 175px;
+    height: 316px;
     display: flex;
     position: relative;
     margin: 0px 23px;
 }
+#menu .software .content{
+    background-color: rgb(241,244,253);
+}
+
 #menu .content, 
 #menu .list-menu li{
     width: 100%;
     height: 45px;
     border-radius: 7px;
-    line-height: 45px;
+    line-height: 45px;  
+}
+
+#menu .list-menu li {
     background-color: white;
 }
 
@@ -118,14 +122,15 @@ nav #menu {
     font-size: 22px;
 }
 #menu .software .content i,
-#menu .software .content a,
+#menu .software .content a{
+    color:  rgb(83,102,223);
+}
+
 #menu .entertain .content i,
 #menu .entertain .content a{
     color: rgba(77, 77, 77, 0.77);
 }
 
-#menu .software:hover .content i,
-#menu .software:hover .content a,
 #menu .entertain:hover .content i,
 #menu .entertain:hover .content a{
     color:  rgb(83,102,223);
@@ -136,21 +141,13 @@ nav #menu {
 }
 
 #menu .list-menu {
-    display: none;
     position: absolute;
     top: 46px;
     left: 20px;
 }
 
-#menu .software:hover {
-    height: 270px;
-}
-#menu .software:hover .content,
 #menu .entertain:hover .content{
     background-color: rgb(241,244,253);
-}
-#menu .software:hover .list-menu{
-    display: block;
 }
 
 #menu .list-menu li {
@@ -179,27 +176,27 @@ nav #menu {
     color: rgba(77, 77, 77, 0.77);
 }
 #menu .entertain {
-    width: 180px;
+    width: 175px;
     height: 45px;
     display: flex;
     position: relative;
     margin: 0px 23px;
 }
 
-
-
 #menu .sidebar img {
     display: block;
     border-radius: 15px;
-    width: 150px;
-    height: 220px;
-    margin: 15px 20px;
+    width: 170px;
+    height: 250px;
+    margin: 7px 20px;
+    box-shadow: 0px 0px 10px rgb(186, 186, 186) ;
 }
 
 #article {
     width: 1050px;
     height: 1000px;
-    display: flex;
+    display: block;
+    padding: 20px 20px;
     background-color: rgb(249,248,253);
     position: absolute;
     z-index: -1;
@@ -209,28 +206,27 @@ nav #menu {
 }
 .article-1 {
     width: 1056px;
-    height: 1056px;
+    height: 10px;
     display: flex;
 }
 
 .article-1 .container-1{
-    width: 750px;
+    width: 720px;
     height: 250px;
     display: flex;
-    margin: 20px 20px;
     background-color: rgb(118,113,224);
-    border-radius: 12px;
+    border-radius: 10px;
     position: relative;
 }
 
 .article-1 .container-1 h1 {
-    width: 315px;
+    width: 340px;
     height: 115px;
     display: flex;
     position: absolute;
     top: 15px;
     left: 20px;
-    font-size: 23px;
+    font-size: 25px;
     line-height: 40px;
     color: white;
 }
@@ -242,26 +238,183 @@ nav #menu {
     position: absolute;
     top: 152px;
     left: 20px;
-    color: white;
+    color: rgba(241, 244, 253, 0.755);
     font-weight: 10;
     font-size: 15px;
 }
 .article-1 .container-1 img{
     position: absolute;
-    left: 450px;
+    left: 435px;
+    top: 30px;
+    width: 285px;
+    height: 220px;
+}
+
+.icon-1 i {
+    position: absolute;
+    top: 222px;
+    left: 334px;
+    color: white;
+    font-size: 12px;
+}
+
+.icon-2 i {
+    position: absolute;
+    top: 222px;
+    left: 360px;
+    font-size: 12px;
+    color: rgb(241,244,253);
 }
 
 .article-1 .container-2 {
-    width: 240px;
+    z-index: -2;
+    width: 270px;
     height: 250px;
-    display: flex;
-    margin: 20px 20px;
+    display: block;
+    margin-left: 15px;
     background-color: rgb(255,208,210);
-    border-radius: 12px;
+    border-radius: 10px;
     position: absolute;
-    left: 770px;
+    left: 750px;
+}
+.container-2 .content {
+    width: 180px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    line-height: 30px;
+    font-size: 23px;
+}
+.container-2 h2{
+    color: rgb(37,45,81);
+}
+.container-2 a{
+    text-decoration: none;
+    color: rgb(118,113,224);
+    margin-top: 130px;
+    margin-left: 20px;
+    font-size: 12px;
 }
 
+.container-2 img {
+    z-index: -1;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 10px;
+    width: 150px;
+    height: 175px;
+}
+
+.article-2 {
+    position: absolute;
+    top: 300px;
+    z-index: 1;
+}
+.article-2 .container-1{
+    background-color: rgb(249,248,253);
+    width: 1020px;
+    height: 250px;
+}
+
+.article-2 .container-1 .title{
+    background-color: rgb(249,248,253);
+    padding: 0px 0px 10px;
+}
+
+.article-2 .title h5{
+    font-size: 23px;
+    align-items: flex-start;
+    color: rgb(37,45,81);
+}
+
+.article-2 .title a{
+    margin-left: 970px;
+    text-decoration: none;
+    color: rgb(118,113,224);
+}
+
+.article-2 .content {
+    margin: 20px 0px;
+    border-radius: 10px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.article-2 .block {
+    background-color: white;
+    width: 340px;
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.article-2 .block .app {
+    background-color: white;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    border-top-left-radius: 10px;
+}
+
+.article-2 .block .app img{
+    width: 55px;
+    height: 55px;
+    z-index: 3px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.app .name {
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: white;
+    width: 180px;
+    height: 55px;
+}
+.app .name h5{
+    font-size: 14px;
+    line-height: 20px;
+}
+.app .name h6 {
+    font-size: 12px;
+    font-weight: 100;
+    color: rgba(77, 77, 77, 0.5);
+}
+
+.app .detail .detail-block {
+    width: 65px;
+    height: 27px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 17px;
+    border: 1px solid rgb(118,113,224);
+}
+
+.detail-block a {
+    font-size: 13px;
+    text-decoration: none;
+    font-weight:bold;
+    line-height: 27px;
+    margin-left: 12px;
+    color: rgb(118,113,224);
+}
+
+.detail .detail-block:hover {
+    background-color: rgb(118,113,224);
+}
+
+.detail-block:hover a {
+    color: white;
+}
+
+.app .detail h6 {
+    font-weight: 100;
+    margin-top: 10px;
+    margin-left: 14px;
+    color: rgba(77, 77, 77, 0.77);
+}
 
 
 
