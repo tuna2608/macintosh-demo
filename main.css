@@ -428,6 +428,7 @@ nav #menu {
     height: 500px;
     top: 610px;
     position: relative;
+    margin-top: 50px;
     justify-content: space-between;
 }
 
@@ -438,7 +439,7 @@ nav #menu {
     height: 100%;
 }
 
-.article-3 .title {
+.title {
     background-color: rgb(249,248,253);
     width: 100%;
     height: 50px;
@@ -447,13 +448,13 @@ nav #menu {
     border-radius: 10px;
 }
 
-.article-3 .title h2 {
+.title h2 {
     color: rgb(37,45,81);
     line-height: 50px;
     font-size: 22px;
 }
 
-.article-3 .title a {
+.title a {
     color: rgb(83,102,223);
     text-decoration: none;
     line-height: 50px;
@@ -681,4 +682,47 @@ nav #menu {
     border-radius: 10px;
     margin-top: 0px;
     border: 1px solid rgb(118,113,224);
+}
+
+.article-4 {
+    width: 1020px;
+    height: 430px;
+    background-color: rgb(249,248,253);
+    display: block;
+    position: relative;
+    top: 630px;
+}
+
+.article-4 .content {
+    width: 100%;
+    height: 380px;
+    background-color: rgb(249,248,253);
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-4 .container {
+    width: 320px;
+    height: 380px;
+    background-color: rgb(249,248,253);
+}
+
+.article-4 .container img {
+    width: 320px;
+    height:250px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.article-4 .container h6 {
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgb(37,45,81);
+    line-height: 20px;
+}
+
+.article-4 .container p {
+    font-size: 12px;
+    margin-top: 10px;
+    color: rgba(77, 77, 77, 0.65)
 }
