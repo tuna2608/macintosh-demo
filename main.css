@@ -194,7 +194,7 @@ nav #menu {
 
 #article {
     width: 1020px;
-    height: 3000px;
+    height: 2610px;
     display: block;
     padding: 20px 20px;
     background-color: rgb(249,248,253);
@@ -684,7 +684,7 @@ nav #menu {
     border: 1px solid rgb(118,113,224);
 }
 
-.article-4 {
+.article-4{
     width: 1020px;
     height: 430px;
     background-color: rgb(249,248,253);
@@ -693,7 +693,7 @@ nav #menu {
     top: 630px;
 }
 
-.article-4 .content {
+.article-4 .content{
     width: 100%;
     height: 380px;
     background-color: rgb(249,248,253);
@@ -701,27 +701,27 @@ nav #menu {
     justify-content: space-between;
 }
 
-.article-4 .container {
+.article-4 .container{
     width: 320px;
     height: 380px;
     background-color: rgb(249,248,253);
 }
 
-.article-4 .container img {
+.article-4 .container img{
     width: 320px;
     height:250px;
     border-radius: 12px;
     margin-top: 20px;
 }
 
-.article-4 .container h6 {
+.article-4 .container h6{
     font-size: 15px;
     margin-top: 10px;
     color: rgb(37,45,81);
     line-height: 20px;
 }
 
-.article-4 .container p {
+.article-4 .container p{
     font-size: 12px;
     margin-top: 10px;
     color: rgba(77, 77, 77, 0.65)
@@ -778,7 +778,7 @@ nav #menu {
     padding: 10px 10px 10px 10px;
     line-height: 22px;
     font-size: 11px;
-    color: rgba(77, 77, 77, 0.5);
+    color: rgba(77, 77, 77, 0.6);
 }
 
 .button:hover {
@@ -907,3 +907,151 @@ nav #menu {
     top: 72px;
     z-index: 3;
 }
+
+.article-6 {
+    width: 1020px;
+    height: 430px;
+    display: block;
+    position: relative;
+    top: 660px;
+    background-color: rgb(249,248,253);
+}
+
+.article-6 .content {
+    position: relative;
+    background-color: rgb(249,248,253);
+    width: 1020px;
+    height: 355px;
+    top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-6 .container {
+    width: 320px;
+    height: 355px;
+    background-color:rgb(249,248,253);
+    display: block;
+    position: relative;
+}
+
+.article-6 img {
+    width: 320px;
+    height: 190px;
+    position: absolute;
+    border-radius: 12px;
+}
+
+.article-6 .play {
+    width: 320px;
+    height: 190px;
+    display: flex;
+    position: absolute;
+    border-radius: 12px;
+    background-color: rgba(0,0,0,0.3);
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-6 .play .fa-solid  {
+    font-size: 50px;
+    color: rgb(63,82,107,0.75);
+    position: absolute;
+}
+
+/* .article-6 .fa-regular {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+} */
+
+.article-6 .container:hover .play {
+    z-index: 100;
+}
+
+.article-6 .block {
+    width: 320px;
+    height: 155px;
+    background-color: rgb(249,248,253);
+    position: relative;
+    top: 190px;
+}
+
+.article-6 .block-button {
+    width: 320px;
+    height: 30px;
+    display: flex;
+    background-color: rgb(249,248,253);
+    top: 15px;
+    position: relative;
+    padding-top: 10px;
+}
+.article-6 .button {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-right: 5px;
+    box-shadow:  1px 1px rgb(216, 216, 216);
+}
+
+.article-6 .name {
+    position: relative;
+    width: 320px;
+    height: 30px;
+    top: 25px;
+}
+
+.article-6 .name h2 {
+    font-size: 15px;
+    color: rgb(37,45,81);
+}
+
+.article-6 .name h2:hover {
+    color: rgb(83,102,223);
+}
+
+.article-6 .text {
+    width: 320px;
+    height: 20px;
+    display: flex;
+    position: relative;
+    top: 30px;
+    background-color: rgb(249,248,253);
+}
+
+.article-6 .text .p1{
+    color: rgba(77, 77, 77, 0.5);
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+.article-6 .text .p2{
+    font-size: 10px;
+    color: rgb(77, 77, 77);
+    margin-right: 10px;
+}
+#footer {
+    width: 1020px;
+    height: 60px;
+    display: block;
+    background-color: white;
+    position: relative;
+    top: 2735px;
+    left: 245px;
+}
+#footer .text{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .text .p2 {
+    color: rgb(83,102,223);
+    margin-left: 10px;
+}
+
