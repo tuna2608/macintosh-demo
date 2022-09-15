@@ -726,3 +726,184 @@ nav #menu {
     margin-top: 10px;
     color: rgba(77, 77, 77, 0.65)
 }
+
+.article-5 {
+    width: 1020px;
+    height: 550px;
+    background-color: rgb(249,248,253);
+    display: block;
+    position: relative;
+    top: 640px;
+}
+
+.article-5 .content{
+    width: 100%;
+    height: 480px;
+    background-color: rgb(249,248,253);
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-5 .container-1,
+.article-5 .container-2 {
+    width: 495px;
+    height: 480px;
+    border-radius: 12px;
+    background-color: rgb(249,248,253);
+    position: relative;
+    display: block;
+}
+
+.article-5 .container-1 img {
+    width: 495px;
+    height: 480px;
+    border-radius: 12px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.button {
+    width: max-content;
+    height: 22px;
+    background-color: white;
+    position: absolute;
+    top: 285px;
+    left: 20px;
+    border-radius: 20px;
+}
+
+.button a {
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    line-height: 22px;
+    font-size: 11px;
+    color: rgba(77, 77, 77, 0.5);
+}
+
+.button:hover {
+    background-color: rgb(83,102,223);
+}
+
+.button:hover a{
+    color: white;
+}
+
+.article-5 .container-1 .name {
+    position: absolute;
+    width: 455px;
+    height: 60px;
+    top: 315px;
+    padding: 10px 20px;
+}
+
+.article-5 .container-1 .name a {
+    text-decoration: none;
+}
+
+.article-5 .container-1 .name h2 {
+    color: white;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.article-5 .container-1 .name:hover h2 {
+    color: rgb(83,102,223);
+}
+
+.download {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 495px;
+    height: 70px;
+    top: 410px;
+}
+
+.download .amount {
+    height: 100%;
+    width: 100px;
+    display: flex;
+    padding-left: 20px;
+}
+
+.download .amount i,
+.download .amount p{
+    line-height: 60px;
+    font-size: 12px;
+    color: rgb(186, 186, 186);
+}
+
+.article-5 .container-1 .download .detail-block {
+    width: 100px;
+    margin-right: 20px;
+    margin-top: 0px;
+} 
+
+.article-5 .container-1 .download .detail-block a{
+    margin-left: 27px;
+}
+
+.article-5 .container-1 .download .detail h6 {
+    margin-left: 26px;
+    font-size: 13px;
+    margin-top: 7px;
+    z-index: 10;
+    color: rgb(186, 186, 186);
+}
+
+.article-5 .container-2 .sub-container {
+    width: 100%;
+    height: 146px;
+    background-color: white;
+    border-radius: 12px;
+    margin-bottom: 21px;
+    display: flex;
+    position: relative;
+    z-index: 0;
+}
+.article-5 .container-2 .sub-container img {
+    width: 180px;
+    height: 146px;
+    border-radius: 12px;
+    object-fit: cover;
+    position: absolute;
+    right: 315px;
+}
+
+.article-5 .sub-container .name {
+    width: 315px;
+    height: 72px;
+    display: block;
+    background-color: white;
+    position: absolute;
+    left: 180px;
+    z-index: 1;
+}
+
+.container-2 .button {
+    top: 15px;
+    box-shadow: 1px 1px rgb(186, 186, 186);
+}
+
+.container-2 .button a{
+    padding: 10px 20px 10px 0px;
+}
+
+.article-5 .container-2 .sub-container .name h2 {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    font-size: 13px;
+    color: black;
+}
+.article-5 .container-2 .sub-container .name h2:hover {
+    color: rgb(83,102,223);
+}
+
+.container-2 .download {
+    width: 295px;
+    left: 185px;
+    top: 72px;
+    z-index: 3;
+}
